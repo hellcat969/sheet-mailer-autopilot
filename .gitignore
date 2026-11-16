@@ -2,3 +2,16 @@
 node_modules
 .next
 data
+# Google credentials
+client_secret_*.json
+credentials.json
+token.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
